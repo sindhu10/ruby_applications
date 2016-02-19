@@ -1,0 +1,43 @@
+
+
+Git hub installation in local
+
+ sudo apt-get install git-core
+
+ git config --global user.name "YOUR NAME"
+
+ git config --global user.email "YOUR EMAIL ADDRESS"
+
+ git config --list //shows instaled list
+
+ git (shows usage and commands list)
+
+ 
+
+Push applications into live repository
+
+( set the path for working folder)
+
+ :ruby/apps$git init (initialize repository)
+ 
+ git remote add origin https://github.com/sindhu10/ruby_applications.git
+
+ git status (3 states : initial-untracked files, staging, commit)
+
+ git add <filename> (to staging file)git add .(all files)
+
+ git commit -m 'message'
+
+ git push -u origin master (push commited changes into repository)
+      (username and password)
+
+ 
+
+ 
+
+ 
+
+
+
+
+

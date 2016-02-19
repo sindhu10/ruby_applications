@@ -2,8 +2,30 @@ class Task2
 
 	def task1
 		a = [1,2,5,4,1,2,9]
-		p a.uniq #array uniq
-		p a.reverse # array reverse
+		b = []
+		# p a.uniq #array uniq
+		# p a.reverse # array reverse
+
+		p a.length
+
+	end
+
+	def reversearr
+		a = [1,2,5,4,9]
+		b = a.length
+		c = []
+		i=0
+		for i in 0..b-1 do 
+			c[i] = a[b-1]
+			i++
+			b = b-1
+		end
+		p c
+
+	end
+
+	def uniqarr
+		a = [1,2,5,2,4,9]
 	end
 
 	# fibbonocci series
@@ -50,5 +72,6 @@ end
 t = Task2.new
 
 # t.task1
+t.reversearr
 # t.fibbnocci
-t.eligible('sindhu',5)
+# t.eligible('sindhu',5)
